@@ -5,9 +5,9 @@ module.exports = function(app){
         .post(users.create_account);
     
    app.route("/login")
-      .post();
+      .post(login.create_account);
     
    app.route("/logout")
-      .post();
+      .post(users.logout);
 
 }

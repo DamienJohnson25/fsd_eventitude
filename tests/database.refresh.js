@@ -1,4 +1,4 @@
-const db = require("../database");
+const db = require("../app/config/database");
 
 let count = 0
 
